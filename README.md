@@ -2,7 +2,24 @@ Nome do projeto: Shopyy - Loja Online
 
 Descrição do projeto: Desenvolvimento de um e-commerce com cadastro de usuários, produtos, carrinho de compras e tela de administrador usando um banco de dados serveless e deploy realizado no render.
 
-Tecnologias utilizadas:  React, Redux Toolkit, Node.js, Express, MongoDB, Stripe (Pagamento)
+# Projeto ShopIT
+
+Este é o projeto **ShopIT**, uma plataforma de e-commerce que permite a venda e gerenciamento de produtos online. Este repositório contém o backend da aplicação.
+
+## Requisitos
+
+- **Node.js** (versão 14 ou superior)
+- **Yarn** (gerenciador de pacotes)
+- **MongoDB Atlas** (ou banco de dados MongoDB local)
+- **Stripe** (para pagamentos)
+- **Cloudinary** (para gerenciamento de imagens)
+
+## Instalação
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/IanAugusto/deploy-projeto-ecommerce.git
+   cd deploy-projeto-ecommerce
 
 Entregas realizadas:
 -setup completo localmente do backend do projeto.
@@ -17,7 +34,6 @@ Entregas realizadas:
 -criando login do usuário e autenticação.
 -aplicação hospada no render 
 
-Obs. projeto desenvolvido na branch 020-prepared-for-deploy
-
+Obs. projeto desenvolvido na branch master
 
 
