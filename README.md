@@ -1,39 +1,60 @@
-Nome do projeto: Shopyy - Loja Online
+# Shopyy - Online Store  
+Link of website:
+https://shopit-v2-8vys.onrender.com/
 
-Descrição do projeto: Desenvolvimento de um e-commerce com cadastro de usuários, produtos, carrinho de compras e tela de administrador usando um banco de dados serveless e deploy realizado no render.
+This is the **Shopyy** project, an e-commerce platform that allows users to register, manage products, use a shopping cart, and access an admin panel. The project uses a serverless database and has been deployed on Render.  
 
-# Projeto ShopIT
+## Project Overview  
 
-Este é o projeto **ShopIT**, uma plataforma de e-commerce que permite a venda e gerenciamento de produtos online. Este repositório contém o backend da aplicação.
+**Shopyy** is a backend application for managing e-commerce functionality, including user authentication, product filtering, CRUD operations, and more.  
 
-## Requisitos
+## Requirements  
 
-- **Node.js** (versão 14 ou superior)
-- **Yarn** (gerenciador de pacotes)
-- **MongoDB Atlas** (ou banco de dados MongoDB local)
-- **Stripe** (para pagamentos)
-- **Cloudinary** (para gerenciamento de imagens)
+- **Node.js** (version 14 or higher)  
+- **Yarn** (package manager)  
+- **MongoDB Atlas** (or local MongoDB database)  
+- **Stripe** (for payment processing)  
+- **Cloudinary** (for image management)  
 
-## Instalação
+## Installation  
 
-1. **Clone o repositório**
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/IanAugusto/deploy-projeto-ecommerce.git
    cd deploy-projeto-ecommerce
+   ```  
 
-Entregas realizadas:
--setup completo localmente do backend do projeto.
--definição do middleware para lidar com as requisições via API.
--criação e teste das API que serão utilizadas no projeto.
--criação e teste do Banco de Dados para o projeto.
--criação no back-end das rotas necessárias para o uso de CRUD no banco de dados via API.
--desenvolvimento da página inicial usando React.
--definindo o DOM necessário para a página e a estrutura da loja.
--utilizando o Redux para gerenciamento dos estados.
--criando filtro de produtos na página.
--criando login do usuário e autenticação.
--aplicação hospada no render 
+2. **Install dependencies**  
+   ```bash
+   yarn install
+   ```  
 
-Obs. projeto desenvolvido na branch master
+3. **Set up environment variables**  
+   Create a `.env` file in the root directory and configure the following environment variables:  
+   ```
+   MONGO_URI=<your_mongodb_connection_string>
+   STRIPE_SECRET_KEY=<your_stripe_secret_key>
+   CLOUDINARY_NAME=<your_cloudinary_name>
+   CLOUDINARY_API_KEY=<your_cloudinary_api_key>
+   CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
+   JWT_SECRET=<your_jwt_secret_key>
+   ```  
 
+4. **Start the development server**  
+   ```bash
+   yarn start
+   ```  
 
+## Features Delivered  
+
+- Complete backend setup for local development.  
+- Middleware definition for handling API requests.  
+- Creation and testing of APIs for the project.  
+- Creation and testing of the database for the project.  
+- Backend routes for CRUD operations via API.  
+- Development of the initial frontend using React.  
+- DOM structure for the store's main page.  
+- State management using Redux.  
+- Product filtering on the main page.  
+- User login and authentication system.  
+- Application deployed on Render.  
